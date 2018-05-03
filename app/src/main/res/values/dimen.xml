@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sizeChuTenAPp">45sp</dimen>
+    <dimen name="sizeLogin">30sp</dimen>
+    <dimen name="paddingDrawable">10dp</dimen>
+    <dimen name="margintopEdittextLogin">15dp</dimen>
+    <dimen name="marginleftrightLoginFB">5dp</dimen>
+</resources>

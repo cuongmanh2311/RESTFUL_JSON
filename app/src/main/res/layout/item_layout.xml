@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_marginTop="10dp"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:textSize="17sp"
+    android:gravity="center"
+    android:textColor="#fff"
+    android:id="@+id/txtSTT"
+    android:text="1"
+    android:background="@color/colorSTT"
+    android:layout_width="70dp"
+    android:layout_height="70dp" />
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txtName"
+            android:textColor="@color/colorName"
+            android:textSize="15sp"
+            android:text="Iphone 8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtPrice"
+            android:textColor="@color/colorGia"
+            android:textSize="15sp"
+            android:layout_marginTop="5dp"
+            android:text="100000VND"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<EditText
+    android:id="@+id/edtSPDM"
+    android:hint="Nhập mã danh mục "
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/btnXemSPDM"
+        android:text="Xem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ListView
+        android:id="@+id/lvSPDM"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+</LinearLayout>

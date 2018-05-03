@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+  <item
+      android:id="@+id/itemCart"
+      android:title="Giỏ hàng"
+      android:icon="@drawable/ic_add_shopping_cart_white_24dp"
+      app:showAsAction="always"
+      >
+
+  </item>
+    <item
+        android:id="@+id/itemSearchTrangChu"
+
+      app:showAsAction="always"
+        android:title="search"
+        android:icon="@mipmap/ic_search_white_36dp"
+        >
+
+    </item>
+
+
+    <item
+
+        app:showAsAction="always"
+        android:title="menu"
+        android:icon="@mipmap/ic_more_vert_white_36dp"
+        >
+        <menu>
+            <item
+
+                android:icon="@mipmap/face"
+                android:id="@+id/itemDangNhap"
+                android:title="Đăng nhập"
+
+                ></item>
+
+            <item
+                android:icon="@mipmap/cart24"
+                android:id="@+id/itemGioHang"
+                android:title="@string/giosach"
+
+                ></item>
+            <item
+                android:id="@+id/itemTT"
+                android:title="@string/thongtinapp"
+                android:icon="@mipmap/info"
+                ></item>
+            <item
+                android:title="@string/ngonngu"
+                android:icon="@mipmap/ic_language_black_24dp"
+                android:id="@+id/itemNgonNgu"
+                >
+
+            </item>
+            <item
+                android:icon="@mipmap/logout"
+                android:title="@string/dangxuat"
+                android:id="@+id/itemDangXuat">
+
+
+            </item>
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:layout_gravity="center"
+    android:id="@+id/cardview"
+    android:layout_marginTop="13dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ProgressBar
+           android:layout_gravity="center"
+            android:id="@+id/progress_bar_quay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:background="@color/colorChutRANG"
+            android:orientation="vertical"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            >
+
+            <ImageView
+                android:layout_gravity="center"
+
+                android:paddingTop="10dp"
+                android:id="@+id/imgHinhSp1"
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:src="@drawable/sgk1"
+                android:scaleType="centerCrop"
+                />
+
+            <LinearLayout
+
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                >
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:id="@+id/txttenSp1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tên sản phẩm"
+                    android:layout_marginBottom="5dp"
+                    />
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:id="@+id/txtGiaSp1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tên sản phẩm"
+                    android:textAlignment="center"
+                    />
+
+                <TextView
+                    android:textColor="@color/colorAccent"
+                    android:text="123 View"
+                    android:layout_gravity="center"
+                    android:id="@+id/txtView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+
+</android.support.v7.widget.CardView>

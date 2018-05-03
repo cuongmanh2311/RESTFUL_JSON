@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:numeric="integer"
+        android:hint="Nhập mã sản phẩm"
+        android:id="@+id/edtMaSpNhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_gravity="center"
+        android:text="Kết quả"
+        android:id="@+id/btnKq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="@color/colorName"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="Mã sản phẩm"
+        android:id="@+id/txtMaSp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text=""
+        android:id="@+id/edtMaSp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="@color/colorName"
+        android:layout_gravity="center"
+        android:text="Tên sản phẩm"
+        android:id="@+id/txtTenSp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text=""
+        android:id="@+id/edtTenSp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="@color/colorName"
+        android:layout_gravity="center"
+        android:text="Giá sản phẩm"
+        android:id="@+id/txtGiaSP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text=""
+        android:id="@+id/edtGiaSp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>

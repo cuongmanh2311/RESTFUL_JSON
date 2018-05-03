@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+
+    >
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:background="@color/colorChutRANG"
+        >
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+           android:id="@+id/toolbarChitiet"
+            >
+
+            <LinearLayout
+               android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="?attr/actionBarSize"
+                android:padding="10dp"
+                app:layout_collapseMode="parallax"
+                >
+
+                <TextView
+
+                  android:gravity="center"
+                    android:layout_marginTop="18dp"
+                    android:id="@+id/txtTenSanPhamCT"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Flash plus"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    />
+                    <TextView
+                      android:gravity="center"
+                        android:id="@+id/txtGiaTienSPCT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:textColor="@color/colorName"
+                        />
+                <RatingBar
+
+                    android:id="@+id/rbDanhGia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleX=".5"
+                    android:scaleY=".5"
+                    android:transformPivotX="120dp"
+                    android:transformPivotY="8dp"
+                    android:theme="@style/RatingBar"
+                    />
+
+                <ImageView
+                    android:id="@+id/viewpagerSlider"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:src="@drawable/sgk1"
+                    />
+                <Button
+                    android:textAllCaps="false"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/btnCheckSP"
+                    android:textSize="15sp"
+                    android:textColor="#fff"
+                    android:text="@string/kiemtrasachmuon"
+                    android:background="@color/colorGia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <Spinner
+                    android:textAlignment="center"
+                    android:id="@+id/spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </Spinner>
+            </LinearLayout>
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                android:background="@color/colorTrongsuotLogin"
+                />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <android.support.v4.widget.NestedScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorGray"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/colorChutRANG"
+                >
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/layoutDots"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        >
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="right"
+                        >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:padding="10dp"
+                            />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+
+                            />
+
+                    </LinearLayout>
+
+                </FrameLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorGray"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/thongtinsp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorTrongsuotLogin"
+                    android:padding="10dp"
+                    />
+
+            </LinearLayout>
+
+
+            <!--Phần chi tiết sản phẩm-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/colorChutRANG"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/chitietsp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/txtThongTinChiTiet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:id="@+id/imXemThemChiTiet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_keyboard_arrow_down_black_24dp"
+                    android:padding="10dp"
+                    />
+
+            </LinearLayout>
+
+            <!--Phần đánh giá-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/colorChutRANG"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/danhgia"
+                        />
+
+                    <TextView
+                        android:id="@+id/txtVietDanhGia"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vietdanhgia"
+                        android:gravity="right"
+                        android:textColor="@color/colorTrongsuotLogin"
+                        />
+
+                </LinearLayout>
+
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recyclerDanhGiaChiTiet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </android.support.v7.widget.RecyclerView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorGray"
+                    />
+
+                <TextView
+                    android:id="@+id/txtXemTatCaNhanXet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/xemtatcanhanxet"
+                    android:textAlignment="center"
+                    android:padding="10dp"
+                    android:textColor="@color/colorTrongsuotLogin"
+                    />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        >
+
+
+         <Button
+
+             android:id="@+id/btnThueSach"
+             android:textSize="15sp"
+             android:textColor="#fff"
+             android:text="@string/thuesach"
+             android:background="@color/colorregister"
+             android:layout_weight="1"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content" />
+        <ImageButton
+
+            android:id="@+id/imThemGioHang"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/cart"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:background="@color/colorThanhToan"
+            />
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

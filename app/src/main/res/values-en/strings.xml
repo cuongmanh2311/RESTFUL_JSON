@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">BOOKSTORE</string>
+    <string name="register">SIGN UP</string>
+    <string name="login">SIGN IN</string>
+    <string name="username">User name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="thongbao">Do not have an account?</string>
+    <string name="searchproduct">Search Product</string>
+    <string name="mo">Mở</string>
+    <string name="dong">Đóng</string>
+    <string name="title_activity_thong_tin_app">Map</string>
+    <string name="signupforfree">Create a FREE account</string>
+    <string name="giosach">My book cart</string>
+    <string name="thongtinapp">Information</string>
+    <string name="dangxuat">Log out</string>
+    <string name="mybook">My books</string>
+    <string name="chuatra">Do not pay</string>
+    <string name="giohang">My cart</string>
+    <string name="giohangEmpty">My cart is empty</string>
+    <string name="tongcong">Total</string>
+    <string name="thanhtoan">PAY</string>
+    <string name="tieptucmuahang">KEEP BUYING</string>
+    <string name="kiemtrasachmuon">Check book status</string>
+    <string name="thongtinsp">Product information and comments</string>
+    <string name="chitietsp">Product details</string>
+    <string name="danhgia">Reviews and comments</string>
+    <string name="vietdanhgia">Write a review</string>
+    <string name="xemtatcanhanxet">View all comments</string>
+    <string name="thuesach">BOOK RENTALS</string>
+    <string name="xoasp">Confirm product delete!</string>
+    <string name="messageXoaSp">Are you sure you want to delete this product?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ksp">Add more product!</string>
+    <string name="themtccart">Add cart successfully</string>
+    <string name="thongbaothue">Notification</string>
+    <string name="xacnhanthue">Do you want to rent this book?</string>
+    <string name="sachchuatra">Book not found!</string>
+    <string name="sachduocmuon">Allowed!</string>
+    <string name="thuethanhcong"> Successful!</string>
+    <string name="thuethatbai"> Failed!</string>
+    <string name="loginfail">Login failed!</string>
+    <string name="ngonngu">Language</string>
+    <string name="chonngongu">Choose Language</string>
+
+</resources>

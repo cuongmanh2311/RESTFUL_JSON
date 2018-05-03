@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/books"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aandroid="http://schemas.android.com/tools">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/timg"
+        android:orientation="vertical"
+        aandroid:ignore="Suspicious0dp">
+
+
+        <LinearLayout
+            android:layout_marginTop="60dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:background="@drawable/logo"
+                android:layout_marginBottom="20dp"
+                />
+            <TextView
+                android:singleLine="true"
+                android:textSize="@dimen/sizeLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/login"
+                android:textColor="@color/colorChutRANG" />
+            <android.support.design.widget.TextInputLayout
+                android:textColorHint="#ADCCE2"
+                android:textColor="#ADCCE2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.example.dell.restful_json.CustomView.CleanEditText
+
+                    android:textSize="18dp"
+                    android:id="@+id/edtEmailLogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/email"
+                    android:textColorHint="#ADCCE2"
+                    android:textColor="#ADCCE2"
+                    android:layout_marginLeft="22dp"
+                    android:inputType="text"
+                    android:background="#0000"
+                    android:padding="16dp"
+                    android:layout_marginRight="35dp"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_height="1dp"
+                android:background="#ADCCE2" />
+
+           <android.support.design.widget.TextInputLayout
+               android:textColorHint="#ADCCE2"
+               android:layout_marginTop="10dp"
+               android:textColor="#ADCCE2"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+               <com.example.dell.restful_json.CustomView.PasswordEdittext
+                   android:text="Password"
+                   app:useStrike="true"
+                   android:textSize="18dp"
+                   android:id="@+id/edtPassLogin"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:hint="@string/password"
+                   android:textColorHint="#ADCCE2"
+                   android:layout_marginLeft="22dp"
+
+                   android:maxLength="12"
+                   android:textColor="#ADCCE2"
+                   android:background="#0000"
+                   android:padding="16dp"
+                   android:layout_marginRight="35dp"/>
+           </android.support.design.widget.TextInputLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_height="1dp"
+
+                android:background="#ADCCE2"/>
+            <Button
+                android:id="@+id/btnlogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/angle"
+               android:text="@string/login"
+                android:textSize="16dp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:padding="16dp"
+                android:layout_alignParentBottom="true"
+
+                android:layout_marginTop="32dp"
+                />
+            <TextView
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margintopEdittextLogin"
+                android:textColor="@color/colorChutRANG"
+                android:layout_weight="1"
+                android:text="@string/thongbao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_gravity="center"
+            android:id="@+id/btnRegisterLogin"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circleangle"
+            android:orientation="horizontal"
+
+            >
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="1dp">
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/angle2"
+                    />
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/bag"
+                    android:paddingLeft="3dp"
+                    android:layout_gravity="center"
+                    />
+            </FrameLayout>
+            <customfonts.MyTextView
+                android:padding="5dp"
+                android:id="@+id/signupforfree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/signupforfree"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:layout_gravity="center"
+                android:layout_marginLeft="16dp"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</RelativeLayout>

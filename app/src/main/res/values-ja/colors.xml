@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorSTT">#92a6e7</color>
+    <color name="colorName">#e91d72</color>
+    <color name="colorGia">#220bf7</color>
+    <color name="colorXanhSolashscreen">#1E88E5</color>
+
+    <color name="colorChuden">#131313</color>
+    <color name="colorChutRANG">#ffffff</color>
+    <color name="colorTrongsuotLogin">#E61E88E5</color>
+    <color name="colorregister">#009688</color>
+   <color name="colortoolbar">#64B5F6</color>
+    <color name="colorTrang">#FFF</color>
+    <color name="colorGray">#f1e7e7</color>
+    <color name="bgToolbar">#183545</color>
+    <color name="colorExpand">#B3E5FC</color>
+    <color name="colorLinearSua">#E0F7FA</color>
+    <color name="colorTTMua">#60e64c</color>
+    <color name="colorThanhToan">#f79204</color>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    android:weightSum="10"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <android.support.v7.widget.Toolbar
+       app:titleTextColor="@color/colorChutRANG"
+       android:id="@+id/toolbarCart"
+       app:title="@string/giohang"
+       android:background="@color/colortoolbar"
+       android:layout_width="match_parent"
+       android:layout_height="?attr/actionBarSize">
+   </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:layout_weight="7"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:id="@+id/txtThongBao"
+                android:textSize="30sp"
+                android:text="@string/giohangEmpty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ListView
+                android:id="@+id/lvGioHang"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></ListView>
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+         <LinearLayout
+             android:layout_marginTop="5dp"
+             android:orientation="horizontal"
+             android:weightSum="2"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:text="@string/tongcong"
+                    android:textSize="30sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+             <TextView
+                 android:textColor="@color/colorAccent"
+                 android:id="@+id/txtToTal"
+                android:gravity="right"
+                 android:layout_weight="1"
+                 android:text="200000"
+                 android:textSize="30sp"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content" />
+         </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <Button
+            android:textStyle="bold"
+            android:textColor="@color/colorChutRANG"
+            android:background="@color/colorThanhToan"
+            android:id="@+id/btnThanhToan"
+            android:text="@string/thanhtoan"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:textStyle="bold"
+            android:textColor="@color/colorChutRANG"
+            android:background="@color/colorTTMua"
+            android:text="@string/tieptucmuahang"
+            android:id="@+id/btnMuatiep"
+            android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

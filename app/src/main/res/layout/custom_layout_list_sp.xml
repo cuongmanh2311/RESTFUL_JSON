@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardView2"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    >
+
+    <LinearLayout
+        android:background="@color/colorChutRANG"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/imgHinhSp2"
+            android:layout_width="100dp"
+            android:layout_height="140dp"
+            android:src="@drawable/sgk1"
+            android:scaleType="centerCrop"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp"
+            >
+
+            <TextView
+                android:id="@+id/txttenSp2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên sản phẩm"
+                android:layout_marginBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/txtGiaSp2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên sản phẩm"
+                android:textColor="@color/colorXanhSolashscreen"
+                android:textAlignment="center"
+                />
+            <TextView
+                android:id="@+id/txtNgayMuon"
+                android:text="Ngày mượn: 2018-04-30 11:03:47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txtstatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chuatra"
+                android:textColor="@color/colorAccent"
+                android:textAlignment="center"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
